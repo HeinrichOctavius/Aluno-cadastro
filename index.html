@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Caderneta de notas - Cadastrar Aluno</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="module" src="./src/js/index.js" defer></script>
+    
+</head>
+<body>
+    <main class=""> 
+    <div> <h1> Cadastro de Aluno</h1>
+    <form>
+        <h4> Nome:</h4>
+        <input type="text" placeholder="Nome do Aluno" id="studentName">
+        <br>
+        <h4>Matrícula:</h4>
+        <input type="text" placeholder="Matrícula do aluno" id="studentregistration">
+        <br>
+        <h4>Nota 1:</h4>
+        <input type="text" placeholder="Informe a primeira nota" id="studentGrade1">
+        <h4>Nota 2:</h4>
+        <input type="text" placeholder="Informe a segunda nota" id="studentGrade2">
+        <h4>Nota 3:</h4>
+        <input type="text" placeholder="Informe a terceira nota" id="studentGrade3">
+    </div>
+    <br><br>
+        <div class="buttons">
+            <button type="submit"> Cadastrar</button>
+            <button type="reset"> Limpar</button>
+        </div>    
+    </form>
+
+    <section>
+    <div>
+        <h2>Informações</h2>
+        <a class="btn btn-danger" href="#">Apagar tudo</a>
+    </div>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Matrícula</th>
+            <th>1ª Nota</th>
+            <th>2ª Nota</th>
+            <th>3ª Nota</th>
+            <th>Média</th>
+            <th> Excluir </th>
+        </tr>
+    </table>
+    </section>
+    </main>    
+</body>
+</html>
